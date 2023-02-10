@@ -1,10 +1,10 @@
 const mongoose = require('mongoose')
-require('dotenv').config('../.env')
+const DB_connection = "mongodb+srv://HarshBarvaliya:HarshBarvaliya@hackathon-backend.lndvhgg.mongodb.net/?retryWrites=true&w=majority"
 
 async function connectToDatabase(){
     try {
         mongoose.set('strictQuery', true);
-        await mongoose.connect(process.env.DB_connection).then(()=>{
+        await mongoose.connect(DB_connection).then(()=>{
             console.log("database connected");
         })
     } catch (error) {
