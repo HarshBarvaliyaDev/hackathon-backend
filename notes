@@ -1,0 +1,4 @@
+in every api except login 
+     1 authenticate token
+    2 check admin
+    3 actual api

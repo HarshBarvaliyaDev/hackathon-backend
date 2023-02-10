@@ -1,0 +1,1 @@
+https://us-west-2.console.aws.amazon.com/ec2/home?region=us-west-2#ConnectToInstance:instanceId=i-02a25c881e11c189f
